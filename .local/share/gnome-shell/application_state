@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.tweaks.desktop" score="84" last-seen="1692768668"/>
+    <application id="org.gnome.TextEditor.desktop" score="27" last-seen="1692663623"/>
+    <application id="org.gnome.FileRoller.desktop" score="1" last-seen="1692752786"/>
+    <application id="firewall-config.desktop" score="0" last-seen="1692670499"/>
+    <application id="gnome-background-panel.desktop" score="0" last-seen="0"/>
+    <application id="yad-settings.desktop" score="0" last-seen="1692729248"/>
+    <application id="org.gnome.Terminal.Preferences.desktop" score="57" last-seen="1692767077"/>
+    <application id="spotify-launcher.desktop" score="428" last-seen="1692768876"/>
+    <application id="org.gnome.Nautilus.desktop" score="421" last-seen="1692768858"/>
+    <application id="discord.desktop" score="243" last-seen="1692766607"/>
+    <application id="org.gnome.Calculator.desktop" score="0" last-seen="1692767334"/>
+    <application id="firefox.desktop" score="1777" last-seen="1692768856"/>
+    <application id="org.gnome.Terminal.desktop" score="4644" last-seen="1692768849"/>
+    <application id="org.gnome.Extensions.desktop" score="34" last-seen="1692765985"/>
+    <application id="org.gnome.Settings.desktop" score="57" last-seen="1692763220"/>
+  </context>
+</application-state>
