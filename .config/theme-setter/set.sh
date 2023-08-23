@@ -46,6 +46,7 @@ palette=(
 
     $templates/gnome.sh "${palette[@]}" "$wallpaper" "$icon" "$cursor" "$gtk"
     $templates/neovim.sh "$theme" "$mode"
+    $templates/obsidian.sh "${palette[@]}"
     $templates/discord.sh "${palette[@]}"
     $templates/spicetify.sh "${palette[@]}"
 } &> /dev/null

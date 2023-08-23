@@ -1,6 +1,6 @@
 yay -Syu
 
-yay -S gnome-browser-connector gnome-terminal zsh ttf-hack ttf-hack-nerd ranger ueberzug neofetch nvtop htop discord dropbox neovim xclip expressvpn spotify-launcher spicetify-cli cmake extra-cmake-modules jq python-pipx bluez bluedevil nodejs npm
+yay -S gnome-browser-connector gnome-terminal zsh ttf-hack ttf-hack-nerd ranger neofetch cmatrix nvtop htop discord dropbox obsidian neovim xclip expressvpn spotify-launcher spicetify-cli cmake extra-cmake-modules jq python-pipx bluez bluedevil nodejs npm
 yay -R gnome-console
 
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
@@ -17,7 +17,6 @@ sudo rm -rf ~/Documents ~/Music ~/Public ~/Videos ~/Templates ~/Pictures
 
 sudo rsync -a .config .local .zshrc ~/
 sudo cp .config/theme-setter/set-theme /usr/local/bin/
-sudo cp .config/theme-setter/get-theme /usr/local/bin/
 
 sudo systemctl enable bluetooth
 sudo systemctl enable expressvpn
