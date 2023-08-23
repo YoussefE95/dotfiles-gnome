@@ -1,6 +1,7 @@
 yay -Syu
 
 yay -S gnome-browser-connector gnome-terminal zsh ttf-hack ttf-hack-nerd ranger ueberzug neofetch nvtop htop discord dropbox neovim xclip expressvpn spotify-launcher spicetify-cli cmake extra-cmake-modules jq python-pipx bluez bluedevil nodejs npm
+yay -R gnome-console
 
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
