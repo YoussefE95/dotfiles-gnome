@@ -1,12 +1,11 @@
 yay -Syu
 
-yay -S gnome-browser-connector gnome-terminal zsh ttf-hack ttf-hack-nerd ranger neofetch cmatrix nvtop htop discord dropbox obsidian neovim xclip expressvpn spotify-launcher spicetify-cli cmake extra-cmake-modules jq python-pipx bluez bluedevil nodejs npm
+yay -S gnome-browser-connector gnome-terminal zsh starship ttf-hack ttf-hack-nerd ranger neofetch cmatrix nvtop htop discord dropbox obsidian neovim xclip expressvpn spotify-launcher spicetify-cli cmake extra-cmake-modules jq python-pipx bluez bluedevil nodejs npm
 yay -R gnome-console
 
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-history-substring-search ~/.zsh/zsh-history-substring-search
