@@ -2,18 +2,23 @@
     "gruvbox": {
         "icons": {
             "light": "Newaita-Green",
-            "normal": "Newaita",
+            "medium": "Newaita",
             "dark": "Newaita-Black"
         },
         "cursors": {
             "light": "Capitaine-Cursors-Gruvbox",
-            "normal": "Capitaine-Cursors-Gruvbox-White",
+            "medium": "Capitaine-Cursors-Gruvbox-White",
             "dark": "Capitaine-Cursors-Gruvbox-White"
         },
         "gtk": {
             "light": "Gruvbox-Light",
-            "normal": "Gruvbox-Material",
+            "medium": "Gruvbox-Material",
             "dark": "Gruvbox-Dark"
+        },
+        "code": {
+            "light": "Gruvbox Material Light",
+            "medium": "Gruvbox Material Dark",
+            "dark": "Gruvbox Material Dark"
         },
         "palette": {
             "light": {
@@ -31,7 +36,7 @@
                 "orange": "c35e0a",
                 "gray": "7c6f64"
             },
-            "normal": {
+            "medium": {
                 "background": "282828",
                 "backgroundAlt": "1b1b1b",
                 "foreground": "ddc7a1",
@@ -66,18 +71,23 @@
     "rose-pine": {
         "icons": {
             "light": "Papirus-Green",
-            "normal": "Papirus-Blue",
+            "medium": "Papirus-Blue",
             "dark": "Papirus-Black"
         },
         "cursors": {
             "light": "Capitaine-Cursors",
-            "normal": "Capitaine-Cursors-White",
+            "medium": "Capitaine-Cursors-White",
             "dark": "Capitaine-Cursors-White"
         },
         "gtk": {
             "light": "Rose-Pine-Dawn",
-            "normal": "Rose-Pine-Moon",
+            "medium": "Rose-Pine-Moon",
             "dark": "Rose-Pine"
+        },
+        "code": {
+            "light": "Rosé Pine Dawn",
+            "medium": "Rosé Pine Moon",
+            "dark": "Rosé Pine"
         },
         "palette": {
             "light": {
@@ -95,7 +105,7 @@
                 "orange": "d7827e",
                 "gray": "797593"
             },
-            "normal": {
+            "medium": {
                 "background": "232136",
                 "backgroundAlt": "191724",
                 "foreground": "e0def4",

@@ -12,7 +12,7 @@ else
 fi
 
 if [[ "$2" != "light" && "$2" != "dark" ]]; then
-    mode="normal"
+    mode="medium"
 else
     mode="$2"
 fi
@@ -23,6 +23,7 @@ wallpaper="$wallpapers/$(ls $wallpapers | sort -R | tail -1)"
 icon=$(jq ".\"$theme\".icons.\"$mode\"" "$theme_info" | sed 's/\"//g')
 cursor=$(jq ".\"$theme\".cursors.\"$mode\"" "$theme_info" | sed 's/\"//g')
 gtk=$(jq ".\"$theme\".gtk.\"$mode\"" "$theme_info" | sed 's/\"//g')
+code=$(jq ".\"$theme\".code.\"$mode\"" "$theme_info" | sed 's/\"//g')
 palette=(
     "$(jq ".\"$theme\".palette.\"$mode\".background" "$theme_info" | sed 's/\"//g')"
     "$(jq ".\"$theme\".palette.\"$mode\".foreground" "$theme_info" | sed 's/\"//g')"
@@ -45,6 +46,7 @@ palette=(
     # $templates/gtk-3.sh "${palette[@]}" "$gtk"
 
     $templates/gnome.sh "${palette[@]}" "$wallpaper" "$icon" "$cursor" "$gtk"
+    $templates/code.sh "$code" "$theme" "$mode"
     $templates/neovim.sh "$theme" "$mode"
     $templates/obsidian.sh "${palette[@]}"
     $templates/discord.sh "${palette[@]}"
