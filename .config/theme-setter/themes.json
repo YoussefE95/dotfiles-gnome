@@ -37,7 +37,7 @@
                 "gray": "7c6f64"
             },
             "medium": {
-                "background": "282828",
+                "background": "292828",
                 "backgroundAlt": "1b1b1b",
                 "foreground": "ddc7a1",
                 "black": "1b1b1b",
@@ -52,7 +52,7 @@
                 "gray": "7c6f64"
             },
             "dark": {
-                "background": "1d2021",
+                "background": "202020",
                 "backgroundAlt": "141617",
                 "foreground": "ddc7a1",
                 "black": "141617",
