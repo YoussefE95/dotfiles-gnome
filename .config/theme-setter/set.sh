@@ -45,10 +45,10 @@ palette=(
     # $templates/gtk-2.sh "${palette[@]}" "$gtk"
     # $templates/gtk-3.sh "${palette[@]}" "$gtk"
 
-    $templates/gnome.sh "${palette[@]}" "$wallpaper" "$icon" "$cursor" "$gtk"
     $templates/code.sh "$code" "$theme" "$mode"
-    $templates/neovim.sh "$theme" "$mode"
-    $templates/obsidian.sh "${palette[@]}"
     $templates/discord.sh "${palette[@]}"
+    $templates/gnome.sh "${palette[@]}" "$wallpaper" "$icon" "$cursor" "$gtk"
+    # $templates/neovim.sh "$theme" "$mode"
+    $templates/obsidian.sh "${palette[@]}"
     $templates/spicetify.sh "${palette[@]}"
 } &> /dev/null
