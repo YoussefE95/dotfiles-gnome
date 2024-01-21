@@ -4,7 +4,7 @@ base_dir="$HOME/.config/theme-setter"
 templates="$base_dir/templates"
 theme_info="$base_dir/themes.json"
 
-if [[ "$1" == "gruvbox" || "$1" == "rose-pine" ]]; then
+if [[ "$1" == "everforest" || "$1" == "gruvbox" || "$1" == "rose-pine" ]]; then
     theme="$1"
 else
     echo "$1 is not a supported theme"
@@ -44,11 +44,11 @@ palette=(
     # $templates/gnome-shell.sh "${palette[@]}" "$gtk"
     # $templates/gtk-2.sh "${palette[@]}" "$gtk"
     # $templates/gtk-3.sh "${palette[@]}" "$gtk"
+    # $templates/gtk-4.sh "${palette[@]}" "$gtk"
 
     $templates/code.sh "$code" "$theme" "$mode"
     $templates/discord.sh "${palette[@]}"
     $templates/gnome.sh "${palette[@]}" "$wallpaper" "$icon" "$cursor" "$gtk"
-    # $templates/neovim.sh "$theme" "$mode"
     $templates/obsidian.sh "${palette[@]}"
     $templates/spicetify.sh "${palette[@]}"
 } &> /dev/null

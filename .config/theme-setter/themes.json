@@ -70,9 +70,9 @@
     },
     "gruvbox": {
         "icons": {
-            "light": "Newaita-Green",
+            "light": "Newaita",
             "medium": "Newaita",
-            "dark": "Newaita-Black"
+            "dark": "Newaita"
         },
         "cursors": {
             "light": "Capitaine-Cursors-Gruvbox",
@@ -81,7 +81,7 @@
         },
         "gtk": {
             "light": "Gruvbox-Light",
-            "medium": "Gruvbox-Material",
+            "medium": "Gruvbox-Medium",
             "dark": "Gruvbox-Dark"
         },
         "code": {
@@ -141,7 +141,7 @@
         "icons": {
             "light": "Papirus-Green",
             "medium": "Papirus-Blue",
-            "dark": "Papirus-Black"
+            "dark": "Papirus-Blue"
         },
         "cursors": {
             "light": "Capitaine-Cursors",
